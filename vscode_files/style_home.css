@@ -1,0 +1,153 @@
+.navbar{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: orange;
+    border-radius: 5px;
+    height: 50px;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar_brand{
+    padding-top: 10px;
+    width: 70%;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.nav_links{
+    color: black;
+    text-decoration: none;
+}
+.navbar_items{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.home{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.account{
+    height: auto;
+    width: 20px;
+}
+.bookings{
+
+  padding-left: 1rem;
+    padding-right: 1rem;
+}
+.user {
+    color: black; /* Set text color to black */
+    font-weight: 700; /* Set font weight to bold */
+    margin-right: 10px; /* Add some margin to separate from other navbar items */
+}
+
+
+.shopping{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+}
+.box{
+    height: 300px;
+    /* border: 2px solid black; */
+    width: 350px;
+    background-color: white;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+    
+
+}
+.box-cont{
+    margin: 1rem;
+ }
+ .box-cont p{
+     color: #007185;
+ }
+
+ .car_image{
+    width:100%;
+    height:auto;
+    border-radius: 20px;
+ }
+ .flex_box_link{
+    text-decoration: none;
+    color: black;
+ }
+ .signout_button{
+    color: orange;
+    background-color: black;
+ }
+
+ .bookings {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: #212121;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    background-color: #212121;
+    border: 2px solid #4CAF50;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: #4CAF50;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #4CAF50;
+    color: #212121;
+  }
+  
+  .dropdown-content a:focus {
+    background-color: #212121;
+    color: #4CAF50;
+  }
+  
+  .dropdown-content #top:hover {
+    border-radius: 0px 13px 0px 0px;
+  }
+  
+  .dropdown-content #bottom:hover {
+    border-radius: 0px 0px 13px 13px;
+  }
+  
+  .bookings:hover button {
+    border-radius: 15px 15px 0px 0px;
+  }
+  
+  .bookings:hover .dropdown-content {
+    display: block;
+  }
+  

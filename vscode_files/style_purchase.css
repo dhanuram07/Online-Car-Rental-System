@@ -1,0 +1,37 @@
+.navbar{
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: aquamarine;
+  background-size: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.navbar_brand{
+    width: 70%;
+    padding-left: 10px;
+}
+
+.nav_links{
+    color: black;
+    text-decoration: none;
+}
+.navbar_items{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.home{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.bookings{
+
+  padding-left: 1rem;
+    padding-right: 1rem;
+}
+.user{
+    font-weight: 700;
+}
